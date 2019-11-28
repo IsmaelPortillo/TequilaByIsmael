@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RecyclerCardDemo</string>
+    <string name="app_name">Tequila</string>
     <string name="Nombre">Nombre</string>
     <string name="editText2">Apellido</string>
     <string name="button2">Aceptar</string>

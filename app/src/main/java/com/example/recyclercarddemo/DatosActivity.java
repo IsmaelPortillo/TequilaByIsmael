@@ -20,7 +20,6 @@ public class DatosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datos);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         edtNo = (EditText) findViewById(R.id.Nombre);
         edtPas = (EditText) findViewById(R.id.editText2);
