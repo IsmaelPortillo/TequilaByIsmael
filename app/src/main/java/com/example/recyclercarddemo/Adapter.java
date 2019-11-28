@@ -39,8 +39,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         String title = data.get(i);
         viewHolder.textTitle.setText(title);
 
-        String autor = data.get(i);
-        viewHolder.textDescription.setText(autor);
 
 
         // similarly you can set new image for each card and descriptions
@@ -66,13 +64,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                     Intent i = new Intent(v.getContext(),Details.class);
                     i.putExtra("title",data.get(getAdapterPosition()));
                     v.getContext().startActivity(i);
-
-                    Intent s = new Intent(v.getContext(),Details.class);
-                    s.putExtra("autor",data.get(getAdapterPosition()));
                 }
             });
             textTitle = itemView.findViewById(R.id.textTitle);
-            textDescription = itemView.findViewById(R.id.textDesc);
         }
 
 

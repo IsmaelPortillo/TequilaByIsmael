@@ -24,13 +24,10 @@ public class Details extends AppCompatActivity {
         textTitle = findViewById(R.id.detailTitle);
         textTitle.setText(title);
 
-        Intent s = getIntent();
-        String autor = i.getStringExtra("autor");
-        texDesc = findViewById(R.id.detailAutor);
-        texDesc.setText(title);
 
 
-        Button btn = (Button) findViewById(R.id.button);
+
+        Button btn = (Button) findViewById(R.id.buttonOne);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
